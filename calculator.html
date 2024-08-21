@@ -1,0 +1,49 @@
+<html>
+  <head>
+    
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <div id="inputbar">
+      <input type="text" placeholder="0" id="inputvalue"/>
+      <input type="text" onkeypress="numbersonly(event)" />
+    </div>
+
+    <div class="keys">
+      <div class="container1">
+        <div id="cancel" onclick="reset()">C</div>
+        <div id="converter" onclick="outvalue('-')">+/-</div>
+        <div id="percentage" onclick="outvalue('%')" >%</div>
+        <div id="division" onclick="outvalue('/')" >/</div>
+      </div>
+      <div class="container2">
+            <div id="seven" onclick="outvalue(7)">7</div>
+            <div id="eight" onclick="outvalue(8)">8</div>
+            <div id="nine" onclick="outvalue(9)">9</div>
+            <div id="multiplication" onclick="outvalue('*')">x</div>
+          </div>
+      <div class="container3">
+        <div id="four" onclick="outvalue(4)">4</div>
+        <div id="five" onclick="outvalue(5)">5</div>
+        <div id="six" onclick="outvalue(6)">6</div>
+        <div id="subtraction" onclick="outvalue('-')">-</div>
+      </div>
+      <div class="container4">
+        <div id="one" onclick="outvalue(1)">1</div>
+        <div id="two" onclick="outvalue(2)">2</div>
+        <div id="three" onclick="outvalue(3)">3</div>
+        <div id="add" onclick="outvalue('+')">+</div>
+      </div>
+      <div class="container5">
+        <div id="zero" onclick="outvalue(0)">0</div>
+        <div id="point" onclick="outvalue('.')">.</div>
+        <div id="equal" onclick="output()">=</div>
+      </div>
+    </div>
+
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>
