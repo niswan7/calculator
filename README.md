@@ -2,7 +2,7 @@
 
 A simple, responsive calculator built using HTML, CSS, and JavaScript.
 
-![Calculator Preview](link_to_image_or_gif_of_your_calculator)
+![Calculator Preview](/photo.png)
 
 ## Features
 
